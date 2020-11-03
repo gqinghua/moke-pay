@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.moke.pay.common.transaction.TransactionConfiguration

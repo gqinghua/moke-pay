@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.moke.pay.common.data.cache.RedisTemplateConfig,\
+    com.moke.pay.common.data.cache.RedisCacheManagerConfig,\
+    com.moke.pay.common.data.cache.RedisCacheAutoConfiguration,\
+        com.moke.pay.common.data.tenant.MokeTenantHandler,\
+        com.moke.pay.common.data.tenant.TenantContextHolderFilter,\
+      com.moke.pay.common.data.tenant.MokeFeignTenantConfiguration,\
+        com.moke.pay.common.data.mybatis.MybatisPlusConfig,\
+       com.moke.pay.common.data.resolver.WebMvcConfig

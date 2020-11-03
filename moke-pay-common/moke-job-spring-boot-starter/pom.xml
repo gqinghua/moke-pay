@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.moke.pay</groupId>
+		<artifactId>moke-pay-common</artifactId>
+		<version>3.2</version>
+	</parent>
+
+
+	<artifactId>moke-job-spring-boot-starter</artifactId>
+	<packaging>jar</packaging>
+
+	<description>pigx 定时任务</description>
+
+	<dependencies>
+		<!-- import elastic-job lite core -->
+		<dependency>
+			<groupId>com.dangdang</groupId>
+			<artifactId>elastic-job-lite-core</artifactId>
+			<version>${elastic-job-lite.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.zaxxer</groupId>
+					<artifactId>HikariCP-java7</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<!-- import other module if need -->
+		<dependency>
+			<groupId>com.dangdang</groupId>
+			<artifactId>elastic-job-lite-spring</artifactId>
+			<version>${elastic-job-lite.version}</version>
+		</dependency>
+	</dependencies>
+</project>

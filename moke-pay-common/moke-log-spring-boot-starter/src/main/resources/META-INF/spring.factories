@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+    com.moke.pay.common.log.LogAutoConfiguration
+org.springframework.context.ApplicationContextInitializer=\
+    com.moke.pay.common.log.init.ApplicationLoggerInitializer

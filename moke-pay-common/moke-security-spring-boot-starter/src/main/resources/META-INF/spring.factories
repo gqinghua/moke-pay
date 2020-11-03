@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  org.springframework.cloud.openfeign.MokeHystrixFeignTargeterConfiguration,\
+  com.moke.pay.common.security.component.GlobalExceptionHandlerResolver,\
+  com.moke.pay.common.security.service.MokeUserDetailsServiceImpl

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.moke.pay.common.core.config.JacksonConfig,\
+   com.moke.pay.common.core.config.MessageSourceConfig,\
+   com.moke.pay.common.core.config.RestTemplateConfig,\
+    com.moke.pay.common.core.util.SpringContextHolder
