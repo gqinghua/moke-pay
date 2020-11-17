@@ -14,6 +14,7 @@
 	<modules>
 		<module>moke-pay-common</module>
 		<module>moke-pay-upms</module>
+		<module>moke-pay-gateway</module>
 	</modules>
 	<properties>
 		<spring-boot.version>2.1.6.RELEASE</spring-boot.version>
